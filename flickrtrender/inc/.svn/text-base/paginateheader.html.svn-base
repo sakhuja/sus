@@ -1,0 +1,33 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+
+<html lang="en">
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="description" content="SearchMonkey is Yahoo! Search's open developer platform. All the info you need -- including an overview, documentation, tutorials -- is right here.">
+<meta name="keywords" content="SearchMonkey, Search Monkey, Yahoo Search, semantic web, semantic markup, microformats, rdf, Yahoo!, structured data">
+<title>Sief Validator - Version 2.7.0</title>
+
+<link rel="stylesheet" type="text/css" href="/inc/common.css" />
+<link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.6.0/build/datatable/assets/skins/sam/datatable.css" />
+<link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.6.0/build/paginator/assets/skins/sam/paginator.css" />
+<link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.8.2r1/build/calendar/assets/skins/sam/calendar.css">
+
+<script type="text/javascript" src="http://yui.yahooapis.com/2.6.0/build/yahoo-dom-event/yahoo-dom-event.js"></script>
+<script type="text/javascript" src="http://yui.yahooapis.com/2.6.0/build/element/element-beta-min.js"></script>
+<script type="text/javascript" src="http://yui.yahooapis.com/2.6.0/build/datasource/datasource-min.js"></script>
+<script type="text/javascript" src="http://yui.yahooapis.com/2.6.0/build/datatable/datatable-min.js"></script>
+<script type="text/javascript" src="http://yui.yahooapis.com/2.6.0/build/paginator/paginator-min.js"></script>
+<script type="text/javascript" src="http://yui.yahooapis.com/2.8.2r1/build/calendar/calendar-min.js"></script>
+
+<style>
+img{border:0px; width:60px;}
+</style>
+</head>
+
+<body class=" yui-skin-sam">
+<center>
+<div id="hd">
+<div style="float:right;"><a href="/reasonMessages.php">View Reason Codes</a><a href="http://bug.corp.yahoo.com/enter_bug.cgi?product=Search Monkey&component=Editorial XSLT rules">File Bug</a><a href="http://twiki.corp.yahoo.com/view/Yst/SIEFRuleValidationOnline">How To Use SIEF</a></div>
+<div><a href="/">Create New Rule</a><a href="/signup/index.php">Sign Up</a><a href="/editor/index.php">Editor Home</a><a href="/review/index.php">Reviewer Home</a><a href="/admin/jobs.php">Admin Home</a></div>
+</div>

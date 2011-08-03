@@ -1,0 +1,20 @@
+a:14:{s:7:"attribs";a:4:{s:5:"xmlns";s:36:"http://pear.php.net/dtd/rest.release";s:9:"xmlns:xsi";s:41:"http://www.w3.org/2001/XMLSchema-instance";s:11:"xmlns:xlink";s:28:"http://www.w3.org/1999/xlink";s:18:"xsi:schemaLocation";s:81:"http://pear.php.net/dtd/rest.release     http://pear.php.net/dtd/rest.release.xsd";}s:1:"p";a:2:{s:7:"attribs";a:1:{s:10:"xlink:href";s:24:"/rest/p/services_weather";}s:8:"_content";s:16:"Services_Weather";}s:1:"c";s:12:"pear.php.net";s:1:"v";s:5:"1.2.2";s:2:"st";s:6:"stable";s:1:"l";s:11:"PHP License";s:1:"m";s:3:"eru";s:1:"s";s:67:"This class acts as an interface to various online weather-services.";s:1:"d";s:388:"Services_Weather searches for given locations and retrieves current
+weather data and, dependent on the used service, also forecasts. Up to
+now, GlobalWeather from CapeScience, Weather XML from EJSE (US only),
+a XOAP service from Weather.com and METAR from noaa.gov are supported.
+Further services will get included, if they become available, have a
+usable API and are properly documented.";s:2:"da";s:19:"2004-03-31 07:40:12";s:1:"n";s:770:"- Weather.php, Common.php, Metar.php
+    o Fixed bug #896: Improvement for get_class()-usage
+- Ejse.php, Globalweather.php, Metar.php, Weatherdotcom.php
+    o Added updateRaw to current weather array
+- Weather.php, Common.php, Ejse.php, Globalweather.php, Weatherdotcom.php
+    o Fixed bug #1074: Set timeout for requests
+      Added $_httpTimeout and setHttpTimeout() to Common.php
+      Added documentation of httpTimeout option in Weather.php
+      Added timeout parameter to WSDL-constructors in Ejse.php and Globalweather.php
+      Switched to using HTTP_Request in Weatherdotcom.php
+- Globalweather.php
+    o Fixed wrong behaviour when sky->layers is a string
+- Weatherdotcom.php
+    o Added windGust to current weather array
+    o Fixed typo in forecast array-key";s:1:"f";s:5:"29205";s:1:"g";s:46:"http://pear.php.net/get/Services_Weather-1.2.2";s:1:"x";a:1:{s:7:"attribs";a:1:{s:10:"xlink:href";s:17:"package.1.2.2.xml";}}}

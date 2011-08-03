@@ -1,0 +1,5 @@
+[03-Mar-2011 02:32:24] PHP Fatal error:  Uncaught exception 'Exception' with message 'Aborting. cURL error: <url> malformed' in /home1/sakhujau/public_html/REST/SimpleRestClient.php:173
+Stack trace:
+#0 /home1/sakhujau/public_html/REST/SampleApp.php(23): SimpleRestClient->getWebRequest('')
+#1 {main}
+  thrown in /home1/sakhujau/public_html/REST/SimpleRestClient.php on line 173

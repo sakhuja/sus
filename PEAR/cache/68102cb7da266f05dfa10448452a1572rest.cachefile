@@ -1,0 +1,21 @@
+a:14:{s:7:"attribs";a:4:{s:5:"xmlns";s:36:"http://pear.php.net/dtd/rest.release";s:9:"xmlns:xsi";s:41:"http://www.w3.org/2001/XMLSchema-instance";s:11:"xmlns:xlink";s:28:"http://www.w3.org/1999/xlink";s:18:"xsi:schemaLocation";s:81:"http://pear.php.net/dtd/rest.release     http://pear.php.net/dtd/rest.release.xsd";}s:1:"p";a:2:{s:7:"attribs";a:1:{s:10:"xlink:href";s:24:"/rest/p/services_weather";}s:8:"_content";s:16:"Services_Weather";}s:1:"c";s:12:"pear.php.net";s:1:"v";s:5:"1.1.0";s:2:"st";s:6:"stable";s:1:"l";s:11:"PHP License";s:1:"m";s:3:"eru";s:1:"s";s:67:"This class acts as an interface to various online weather-services.";s:1:"d";s:354:"Services_Weather searches for given locations and retrieves current
+weather data and, dependent on the used service, also forecasts. Up to
+now, GlobalWeather from CapeScience, a XML service from weather.com
+and METAR from noaa.gov are supported. Further services will get
+included, if they become available, have a usable API and are properly
+documented.";s:2:"da";s:19:"2003-12-30 12:19:17";s:1:"n";s:739:"- Removed dependency on 4.3.0
+- Weather.php, Common.php, Globalweather.php, Metar.php, Weatherdotcom.php
+    o Changed error throwing in constructors to work actually
+    o Removed PEAR-package dependency checking
+- Globalweather.php, Metar.php, Weatherdotcom.php
+    o Added searchLocationByCountry for listing available
+      weatherstations per country
+- Globalweather.php
+    o Fixed checking for SOAP error on object initialization
+- Weatherdotcom.php
+    o Changed parsing of update time, as "Local Time" confuses
+      strtotime, when querying locations in your timezone
+- globalweather-basic.php, metar-basic.php, weather.com-basic.php
+    o Updated for proper error handling and added features
+- weather.com-error.php
+    o Erased";s:1:"f";s:5:"26718";s:1:"g";s:46:"http://pear.php.net/get/Services_Weather-1.1.0";s:1:"x";a:1:{s:7:"attribs";a:1:{s:10:"xlink:href";s:17:"package.1.1.0.xml";}}}

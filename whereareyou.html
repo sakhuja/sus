@@ -1,0 +1,35 @@
+<html>
+<head>
+<script type="text/javascript" src="http://maps.yahooapis.com/v3.5/fl/javascript/apiloader.js?appid=YD-S1h1EBU_JXxsSBSJhQfTvQ--">
+</script>
+<style type="text/css">
+#mapContainer {
+  height: 600px;
+  width: 600px;
+}
+</style>
+</head>
+<body>
+<div id="mapContainer"></div>
+
+<script type="text/javascript">
+var addresses = new Array("420 S 3rd Street San Jose CA 95112 USA");
+
+var map = new Map("mapContainer", "YD-S1h1EBU_JXxsSBSJhQfTvQ--", "San Jose, CA", 8);
+map.addEventListener(Map.EVENT_INITIALIZE, onMapInit);
+map.addEventListener(Map.EVENT_MARKER_GEOCODE_SUCCESS, onMarkerGeocode);
+function onMapInit(eventObj) {
+    map.addTool( new PanTool(), true );
+    for(var i=0; i<addresses.length; i++) {
+        var marker = new CustomPOIMarker(addresses[i], '', 'Yahoo! Maps', '0xFF0000', '0xFFFFFF');
+        map.addMarkerByAddress( marker, addresses[i] );
+    }
+    map.addWidget( new ZoomBarWidget() );
+}
+function onMarkerGeocode(eventObj) {
+    var geocodeResponse = eventObj.response;
+}
+
+</script>
+</body>
+</html>

@@ -1,0 +1,3 @@
+# source: search.php
+# This source will read the query, search the sitemap
+# only for that query and display the results as per that.

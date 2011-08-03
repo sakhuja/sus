@@ -1,0 +1,6 @@
+a:8:{s:7:"attribs";a:4:{s:5:"xmlns";s:36:"http://pear.php.net/dtd/rest.package";s:9:"xmlns:xsi";s:41:"http://www.w3.org/2001/XMLSchema-instance";s:11:"xmlns:xlink";s:28:"http://www.w3.org/1999/xlink";s:18:"xsi:schemaLocation";s:80:"http://pear.php.net/dtd/rest.package    http://pear.php.net/dtd/rest.package.xsd";}s:1:"n";s:16:"Services_Weather";s:1:"c";s:12:"pear.php.net";s:2:"ca";a:2:{s:7:"attribs";a:1:{s:10:"xlink:href";s:20:"/rest/c/Web+Services";}s:8:"_content";s:12:"Web Services";}s:1:"l";s:11:"BSD License";s:1:"s";s:67:"This class acts as an interface to various online weather-services.";s:1:"d";s:428:"Services_Weather searches for given locations and retrieves current
+        weather data and, dependent on the used service, also forecasts. Up to
+        now, GlobalWeather from CapeScience, Weather XML from EJSE (US only),
+        a XOAP service from Weather.com and METAR/TAF from NOAA are supported.
+        Further services will get included, if they become available, have a
+        usable API and are properly documented.";s:1:"r";a:1:{s:7:"attribs";a:1:{s:10:"xlink:href";s:24:"/rest/r/services_weather";}}}
